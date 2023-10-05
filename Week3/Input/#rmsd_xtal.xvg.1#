@@ -1,0 +1,52 @@
+# This file was created Mon Oct  2 14:15:10 2023
+# Created by:
+#                       :-) GROMACS - gmx rms, 2020.4 (-:
+# 
+# Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+# Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+# Working dir:  /scratch/work/courses/CHEM-GA-2671-2023fa/students/hz2750/comp-lab-class-2023/Week3
+# Command line:
+#   gmx_mpi rms -s em.tpr -f md_0_1_noPBC.xtc -o rmsd_xtal.xvg -tu ns
+# gmx rms is part of G R O M A C S:
+#
+# Gravel Rubs Often Many Awfully Cauterized Sores
+#
+@    title "RMSD"
+@    xaxis  label "Time (ns)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Backbone after lsq fit to Backbone"
+   0.0000000    0.0359652
+   0.0100000    0.0661510
+   0.0200000    0.0793730
+   0.0300000    0.0949920
+   0.0400000    0.0954124
+   0.0500000    0.0767539
+   0.0600000    0.0840995
+   0.0700000    0.0818147
+   0.0800000    0.0887932
+   0.0900000    0.0943759
+   0.1000000    0.0896279
+   0.1100000    0.1051230
+   0.1200000    0.1090769
+   0.1300000    0.0984723
+   0.1400000    0.0914205
+   0.1500000    0.1297665
+   0.1600000    0.1175492
+   0.1700000    0.1172579
+   0.1800000    0.0989815
+   0.1900000    0.1062542
+   0.2000000    0.1061721
+   0.2100000    0.0963707
+   0.2200000    0.0935226
+   0.2300000    0.0883512
+   0.2400000    0.0986327
+   0.2500000    0.1016505
+   0.2600000    0.0953302
+   0.2700000    0.1001808
+   0.2800000    0.1087841
+   0.2900000    0.1015460
+   0.3000000    0.0963949
+   0.3100000    0.1013698
+   0.3200000    0.0982564
+   0.3300000    0.0973819

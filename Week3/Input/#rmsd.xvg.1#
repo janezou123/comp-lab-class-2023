@@ -1,0 +1,52 @@
+# This file was created Mon Oct  2 14:14:02 2023
+# Created by:
+#                       :-) GROMACS - gmx rms, 2020.4 (-:
+# 
+# Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+# Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+# Working dir:  /scratch/work/courses/CHEM-GA-2671-2023fa/students/hz2750/comp-lab-class-2023/Week3
+# Command line:
+#   gmx_mpi rms -s md_0_1.tpr -f md_0_1_noPBC.xtc -o rmsd.xvg -tu ns
+# gmx rms is part of G R O M A C S:
+#
+# Gromacs Runs On Most of All Computer Systems
+#
+@    title "RMSD"
+@    xaxis  label "Time (ns)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Backbone after lsq fit to Backbone"
+   0.0000000    0.0004982
+   0.0100000    0.0567620
+   0.0200000    0.0729485
+   0.0300000    0.0906931
+   0.0400000    0.0894422
+   0.0500000    0.0702670
+   0.0600000    0.0780144
+   0.0700000    0.0749315
+   0.0800000    0.0872927
+   0.0900000    0.0912218
+   0.1000000    0.0863609
+   0.1100000    0.1030570
+   0.1200000    0.1032398
+   0.1300000    0.0928471
+   0.1400000    0.0871349
+   0.1500000    0.1242078
+   0.1600000    0.1139334
+   0.1700000    0.1082416
+   0.1800000    0.0921977
+   0.1900000    0.0991219
+   0.2000000    0.0978692
+   0.2100000    0.0911332
+   0.2200000    0.0858551
+   0.2300000    0.0811042
+   0.2400000    0.0952196
+   0.2500000    0.0965201
+   0.2600000    0.0917573
+   0.2700000    0.0965199
+   0.2800000    0.1030447
+   0.2900000    0.0955335
+   0.3000000    0.0915480
+   0.3100000    0.0955052
+   0.3200000    0.0905881
+   0.3300000    0.0931521
