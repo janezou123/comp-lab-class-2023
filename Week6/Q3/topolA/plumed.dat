@@ -15,7 +15,8 @@ ARG=phi
    # Gaussian width (sigma) should be chosen based on CV fluctuation in unbiased run 
    SIGMA=0.55 
    # Gaussians will be written to file and also stored on grid 
-   FILE=HILLS GRID_MIN=-pi GRID_MAX=pi 
+   FILE=HILLS GRID_MIN=-pi GRID_MAX=pi
+   GRID_WFILE=lugano.grid.dat GRID_WSTRIDE=10000
 ...
 # Print both collective variables and the value of the bias potential on COLVAR file
 PRINT ARG=phi,psi FILE=COLVAR STRIDE=10 
