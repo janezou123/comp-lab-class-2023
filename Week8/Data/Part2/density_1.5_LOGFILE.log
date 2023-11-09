@@ -6,7 +6,7 @@ Created orthogonal box = (0 0 0) to (11.09378 11.09378 11.09378)
   1 by 1 by 1 MPI processor grid
 Created 2048 atoms
   using lattice units in orthogonal box = (0 0 0) to (11.09378 11.09378 11.09378)
-  create_atoms CPU = 0.001 seconds
+  create_atoms CPU = 0.000 seconds
 Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
 Neighbor list info ...
   update: every = 1 steps, delay = 0 steps, check = yes
